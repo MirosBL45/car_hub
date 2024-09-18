@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
-import CustomButton from './CustomButton';
-import Logo from './Logo';
+import { CustomButton, Logo } from './';
 
 export default function Navbar() {
   return (

@@ -1,11 +1,13 @@
 'use client';
 
 import Image from 'next/image';
-import CustomButton from './CustomButton';
+
+import { CustomButton } from './';
+
 import HeroImg from '@/public/hero.png';
 
 export default function Hero() {
-  function handleScroll() {}
+  function handleScroll() { }
 
   return (
     <div className="hero">

@@ -1,1 +1,5 @@
-Car hub application made with Next.js and Typescript
+Car hub application made with
+
+Next.js
+Typescript
+headless ui
