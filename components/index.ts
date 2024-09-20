@@ -13,6 +13,7 @@ import CustomFilter from './CustomFilter';
 import SearchManufacturer from './SearchManufacturer';
 import CustomButton from './CustomButton';
 import Logo from './Logo';
+import CarCard from './CarCard';
 
 export {
   Hero,
@@ -23,4 +24,5 @@ export {
   SearchManufacturer,
   CustomButton,
   Logo,
+  CarCard,
 };
