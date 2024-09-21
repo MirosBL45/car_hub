@@ -14,6 +14,7 @@ import SearchManufacturer from './SearchManufacturer';
 import CustomButton from './CustomButton';
 import Logo from './Logo';
 import CarCard from './CarCard';
+import CarDetails from './CarDetails';
 
 export {
   Hero,
@@ -25,4 +26,5 @@ export {
   CustomButton,
   Logo,
   CarCard,
+  CarDetails,
 };
