@@ -1,5 +1,5 @@
 Car hub application made with
 
-components from headless ui
+headless ui components
 Typescript
 Next.js
