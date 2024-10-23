@@ -1,4 +1,4 @@
-import { Hero, CustomFilter, SearchBar, CarCard } from '@/components';
+import { Hero, CustomFilter, SearchBar, CarCard, ShowMore } from '@/components';
 import { fuels, yearsOfProduction } from '@/constants';
 import { fetchCars } from '@/utils';
 
@@ -39,7 +39,9 @@ export default async function Home({ searchParams }: any) {
                 <CarCard key={index} car={car} />
               ))}
             </div>
+            <ShowMore />
           </section>
+
         ) : (
           <div className="home__error-container">
             <h2 className="text-black text-xl font-bold">Oops, no results</h2>
